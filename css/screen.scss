@@ -240,7 +240,7 @@ h5,
 h6 {
   font-weight: 700;
   font-size: $ms0;
-  line-height: calc($baselin * 3);
+  line-height: calc($baseline * 3);
   margin-bottom: $space-m;
 }
 
@@ -315,6 +315,19 @@ a:active {
 */
 
 .o-row {
+  padding: $space-m $space-m 0;
+  display: flow-root;
+  &--dark {
+    background: $color-text-light;
+  }
+  &--primary {
+    background: $color-primary-light;
+  }
+}
+
+.o-row--lg {
+  padding: calc($space-m * 2) calc($space-m * 2) 0;
+  display: flow-root;
 }
 
 /*
@@ -324,6 +337,7 @@ a:active {
 */
 
 .o-container {
+  background: $color-primary-lighter;
 }
 
 /*
