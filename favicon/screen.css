@@ -7,12 +7,6 @@
 /*---------------------------------------/*
  # GENERIC
 /*---------------------------------------*/
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 * {
   margin: 0;
   font-size: 100%;
@@ -24,8 +18,8 @@ img {
   max-width: 100%;
 }
 
-html {
-  background: green;
+body {
+  background-color: green;
 }
 
 /*---------------------------------------/*
@@ -37,12 +31,73 @@ html {
     Default markup for page level elements
 */
 /*
+html {
+}
+*/
+/*
     Customize the background color and color to match your design.
 */
+/*
+::selection {
+}
+
 /*
     Elements: typography
     ---
     Default markup for typographic elements
+*/
+/*
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4,
+h5,
+h6 {
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+}
+
+ul,
+ol {
+}
+
+li ul,
+li ol {
+}
+
+blockquote {
+}
+
+figcaption {
+}
+
+hr {
+}
+
+a {
+}
+
+a:hover {
+}
+
+a:visited {
+}
+
+a:active {
+}
 */
 /*---------------------------------------/*
  # OBJECTS
@@ -53,10 +108,18 @@ html {
     Creates a horizontal row with padding
 */
 /*
+.o-row {
+}
+*/
+/*
     Objects: Container
     ---
     Creates a horizontal container that sets de global max-width
 */
+/*
+.o-container {
+}
+/*
 /*
     Objects: Layout
     ---

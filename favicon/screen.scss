@@ -155,12 +155,6 @@ $breakpoints: (
  # GENERIC
 /*---------------------------------------*/
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 * {
   margin: 0;
   font-size: 100%;
@@ -173,8 +167,8 @@ img {
   display: block;
   max-width: 100%;
 }
-html {
-  background: green;
+body {
+  background-color: green;
 }
 /*---------------------------------------/*
  # ELEMENTS
@@ -185,14 +179,14 @@ html {
     ---
     Default markup for page level elements
 */
-
+/*
 html {
 }
-
+*/
 /*
     Customize the background color and color to match your design.
 */
-
+/*
 ::selection {
 }
 
@@ -202,6 +196,7 @@ html {
     Default markup for typographic elements
 */
 
+/*
 h1 {
 }
 
@@ -253,7 +248,7 @@ a:visited {
 
 a:active {
 }
-
+*/
 /*---------------------------------------/*
  # OBJECTS
 /*---------------------------------------*/
@@ -264,18 +259,20 @@ a:active {
     Creates a horizontal row with padding
 */
 
+/*
 .o-row {
 }
-
+*/
 /*
     Objects: Container
     ---
     Creates a horizontal container that sets de global max-width
 */
 
+/*
 .o-container {
 }
-
+/*
 /*
     Objects: Layout
     ---
